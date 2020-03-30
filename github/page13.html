@@ -1,0 +1,106 @@
+<html>
+<head>
+<style>
+body{
+background-image:url("bl.jpg");
+background-size: 100%;
+	width: 1270px;
+	height: 650px;
+	margin: auto;
+	margin-bottom:-50px;
+}
+.link-page14 button{
+	
+	text-decoration:none;
+	background-color:inherit;
+	color:black;
+	padding:10px;
+	border-radius:100%;
+	text-align: center;
+	font-family:'Federant';
+	float:right;
+}
+.link-page14 button:hover{
+	background-color:white;
+}
+h1{
+	text-align:center;
+	background-color: #ffffff;
+	border: 1px solid inherit;
+	opacity: 0.6;
+}
+.link-pre12 button{
+	
+	text-decoration:none;
+	background-color:inherit;
+	color:black;
+	padding:10px;
+	border-radius:100%;
+	text-align: center;
+	font-family:'Federant';
+	float:left;
+}
+.link-pre12 button:hover{
+	background-color:white;
+}
+</style>
+</head> 
+<body> 
+<h1>This video to learn more about elegance</h1>
+<div style="text-align:center"> 
+  <button onclick="playPause()">Play/Pause</button> 
+  <button onclick="makeBig()">Big</button>
+  <button onclick="makeSmall()">Small</button>
+  <button onclick="makeNormal()">Normal</button>
+  <br><br>
+  <video id="video1" width="420">
+    <source src="video.mp4" type="video/mp4">
+    
+    Your browser does not support HTML5 video.
+  </video>
+</div> 
+
+<script> 
+var myVideo = document.getElementById("video1"); 
+
+function playPause() { 
+	if (myVideo.paused) 
+    myVideo.play(); 
+ else 
+    myVideo.pause(); 
+} 
+
+	function makeBig() { 
+    myVideo.width = 560; 
+} 
+
+	function makeSmall() { 
+    myVideo.width = 320; 
+} 
+
+	function makeNormal() { 
+    myVideo.width = 420; 
+} 
+</script> 
+
+	<div>
+	<a href="page14v.html"> <div class="link-page14 button"> <button type="button"><i><b>Go to next Page<b><i></button> </div> </a>
+	</div>
+	
+	<div>
+	<a href="page12.html"> <div class="link-pre12 button"> <button type="button"><i><b>Previous page<b><i></button> </div> </a>
+	</div>
+	<br>
+	<br>
+	<center>
+	<div>
+	<button type="button"
+	onclick="document.getElementById('demo').innerHTML = Date()">
+	Click me to display Date and Time.</button>
+
+	<p id="demo"></p>
+	</div>
+	</center>
+
+</body> 
+</html>

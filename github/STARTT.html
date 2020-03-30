@@ -1,0 +1,73 @@
+
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Baloo+Tammudu+2|Courgette|Indie+Flower&display=swap" rel="stylesheet">
+<style>
+@import url('https://fonts.googleapis.com/css?family=Baloo+Tammudu+2|Courgette|Indie+Flower&display=swap');
+body{
+background-image:url("oo.JPG");
+background-size: 100%;
+	width: 1270px;
+	height: 650px;
+	margin: auto;
+	margin-bottom:-50px;
+}
+
+#start{
+	background-color: #ffffff;
+	border: 1px solid inherit;
+	opacity: 0.6;
+	font-family:cursive;
+	font-size:30px;
+}
+#SUB{
+ text-decoration:none;
+	background-color:inherit;
+	color:black;
+	padding:10px;
+	border-radius:100%;
+	text-align: center;
+	font-family:'Federant';
+	font-size:30px;
+}
+h1{
+font-family:'Indie Flower', cursive;
+color:white;
+font-size:40px;
+}
+</style>
+<!-- here we use Javascript code -->
+<script>
+function validateForm() {
+  var x = document.forms["myForm"]["fname"].value;
+  if (x == "") {
+    alert("Name must be filled out");
+    return false;
+  }
+}
+</script>
+</head>
+<body>
+<center>
+<h1>Welcome, if you want to enjoy and learn elegance, <span style="color:#339966"> log in </span></h1>
+<form style="padding-top:200px" name="myForm" action="Pro.html" onsubmit="return validateForm()" method="post" id="start">
+<input type="radio" id="male" name="gender" value="male">
+  <label for="male">Mr.</label>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Mrs.</label>
+  <input type="radio" id="other" name="gender" value="other">
+  <label for="other">Ms.</label><br><br>
+  First name: <input type="text" name="fname"><br><br>
+  last name: <input type="text" name="lname"><br><br>
+  <label style="padding-right:17px"> State </label>
+    <select id="state" name="state">
+    <option value="Japan">Japan</option>
+    <option value="saudi">KSA</option>
+    <option value="uk">UK</option>
+    <option value="uae">UAE</option>
+  </select><br><br>
+  <input type="submit" value="Submit" id="SUB">
+</form>
+</center>
+</body>
+</html>

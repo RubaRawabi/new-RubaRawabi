@@ -1,0 +1,599 @@
+
+body {
+		
+        font-family:'Courgette', cursive;
+        font-size:48px;
+      }
+	  
+.main-c{
+		
+	background-image: url("ro.JPG");
+	background-size: 100%;
+	width: 1270px;
+	height: 650px;
+	margin: auto;
+	margin-bottom:-50px;
+
+}
+
+
+.link-page2 button{
+	
+	background-color:inherit;
+	color:white;
+	padding:10px;
+	border-radius:100%;
+	text-align: center;
+	font-family:'Federant';
+	float:right;
+}
+
+.link-page2 button:hover{
+	background-color:#9fdfbf;
+}
+.link-pre1 button{
+	background-color:inherit;
+	color:white;
+	padding:10px;
+	border-radius:100%;
+	text-align: center;
+	font-family:'Federant';
+	float:left;
+	margin-bottom:-100px;
+	margin-top:-45px;
+}
+.link-pre1 button:hover{
+	background-color:#9fdfbf;
+}
+.background-page2{
+	background-image:url("pp.jpg");
+	background-size: 100%;
+	width: 1270px;
+	height: 650px;
+	margin:auto;
+	margin-top:-50px;
+	opacity:0.6;
+}
+.top-p2{
+	margin:55px;
+	font-size:60px;
+	font-family:'Handlee',cursive;
+	color:#000066;
+}
+
+.mid-p2{
+	font-family:'Josefin Slab',cursive;
+	font-size:30px;
+	margin:10%;
+	margin-left:5%;
+	padding-left:10px;
+}
+
+.img-p2{ 
+   margin-top:-450px;
+   padding-top:-50px;
+	text-align:right;
+	position: relative;
+	
+	
+}
+.link-page3 button{
+	
+	text-decoration:none;
+	background-color:inherit;
+	color:white;
+	padding:10px;
+	border-radius:100%;
+	text-align: center;
+	font-family:'Federant';
+	float:right;
+	margin-top:-50px;
+}
+.link-page3 button:hover{
+	background-color:#800080;
+}
+#text{
+	opacity:0.6;
+}
+.link-pre2 button{
+	
+	text-decoration:none;
+	background-color:inherit;
+	color:white;
+	padding:10px;
+	border-radius:100%;
+	text-align: center;
+	font-family:'Federant';
+	float:left;
+	margin-top:-50px;
+}
+.link-pre2 button:hover{
+	background-color:#800080;
+}
+.top-p3{
+	font-family:'Josefin Slab',cursive;
+	font-size:30px;
+	margin:10%;
+	margin-left:5%;
+	padding-left:1px;
+	width:400px;
+	margin: 30px;
+	background-color: #ffffff;
+	border: 1px solid white;
+	opacity: 0.6;
+	/*filter: alpha(opacity=10);*/
+}
+.background-page3{
+	background-image:url("jj.jpg");
+	background-size: 100%;
+	width: 1270px;
+	height: 650px;
+	margin: auto;
+	
+}
+
+.img-p3{
+	margin-top:-500px;
+   padding-top:-50px;
+	text-align:right;
+	text-align:top;
+	position: relative;
+}
+.link-page4 button{
+	
+	text-decoration:none;
+	background-color:inherit;
+	color:white;
+	padding:10px;
+	/*border:20px solid white;*/
+	border-radius:100%;
+	text-align: center;
+	font-family:'Federant';
+	float:right;
+	margin-top:-50px;
+}
+.link-page4 button:hover{
+	background-color:#e6ccff;
+}
+.link-pre3 button{
+	
+	text-decoration:none;
+	background-color:inherit;
+	color:white;
+	padding:10px;
+	/*border:20px solid white;*/
+	border-radius:100%;
+	text-align: center;
+	font-family:'Federant';
+	float:left;
+	margin-top:-5px;
+}
+.link-pre3 button:hover{
+	background-color:#e6ccff;
+}
+.top-p4{
+	font-family:'Josefin Slab',cursive;
+	font-size:40px;
+	margin:10%;
+	margin-left:5%;
+	padding-left:1px;
+	width:400px;
+	color:#000066;
+}
+.img-p4{
+	margin-top:-560px;
+   padding-top:-50px;
+	text-align:right;
+	text-align:top;
+	position: relative;
+}
+.background-page4{
+	background-image:url("e.JPG");
+	background-size: 100%;
+	width: 1270px;
+	height: 650px;
+	margin: auto;
+	opacity:0.6;
+}
+.link-page5 button{
+	
+	text-decoration:none;
+	background-color:inherit;
+	color:white;
+	padding:10px;
+	border-radius:100%;
+	text-align: center;
+	font-family:'Federant';
+	float:right;
+}
+.link-page5 button:hover{
+	background-color:#ffa366;
+}
+.link-pre4 button{
+	
+	text-decoration:none;
+	background-color:inherit;
+	color:white;
+	padding:10px;
+	border-radius:100%;
+	text-align: center;
+	font-family:'Federant';
+	float:left;
+}
+.link-pre4 button:hover{
+	background-color:#ffa366;
+}
+#test4{
+	opacity:0.6;
+}
+.top-p5{
+	font-family:'Josefin Slab',cursive;
+	font-size:30px;
+	margin:10%;
+	margin-left:5%;
+	padding-left:1px;
+	margin-top:5%;
+	width:700px;
+	color:#000066;
+	margin: 30px;
+	background-color: #ffffff;
+	border: 1px solid white;
+	opacity: 0.6;
+}
+.background-page5{
+	background-image:url("l.JPG");
+	background-size: 100%;
+	width: 1270px;
+	height: 600px;
+	margin: auto;
+	opacity:0.6;
+}
+.mid-p5{
+	font-size:20px;
+	margin:10%;
+	margin-left:1%;
+	padding-left:1px;
+	margin-top:40px;
+	color:black;
+	margin: 30px;
+	background-color: #ffffff;
+	border: 1px solid inherit;
+	opacity: 0.6;
+	margin-top:-90px;
+}
+.link-page6 button{
+	
+	text-decoration:none;
+	background-color:inherit;
+	color:black;
+	padding:10px;
+	border-radius:100%;
+	text-align: center;
+	font-family:'Federant';
+	float:right;
+}
+.link-page6 button:hover{
+	background-color:#ffff00
+}
+.link-pre5 button{
+	
+	text-decoration:none;
+	background-color:inherit;
+	color:black;
+	padding:10px;
+	border-radius:100%;
+	text-align: center;
+	font-family:'Federant';
+	float:left;
+}
+.link-pre5 button:hover{
+	background-color:#ffff00
+}
+.top-p6{
+	font-family:'Acme', sans-serif;
+	font-size:30px;
+	margin:10%;
+	margin-left:5%;
+	padding-left:1px;
+	width:700px;
+	color:#000066;
+}
+.background-page6{
+	background-image: url("speak.jpg");
+	background-size: 100%;
+	width: 1270px;
+	height: 650px;
+	margin: auto;
+	margin-bottom:-50px;
+}
+.mid-p6{
+	font-size:20px;
+	margin:10%;
+	margin-left:1%;
+	padding-left:1px;
+	margin-top:40px;
+	color:black;
+	margin: 30px;
+	background-color: #ffffff;
+	border: 1px solid inherit;
+	opacity: 0.6;
+	margin-top:-90px;
+}
+.title{
+	font-family: 'Righteous', cursive;
+	font-size:30px;
+	color:black;
+}
+.link-page7 button{
+	
+	text-decoration:none;
+	background-color:inherit;
+	color:black;
+	padding:10px;
+	border-radius:100%;
+	text-align: center;
+	font-family:'Federant';
+	float:right;
+}
+.link-page7 button:hover{
+	background-color:white;
+}
+.link-pre6 button{
+	
+	text-decoration:none;
+	background-color:inherit;
+	color:black;
+	padding:10px;
+	border-radius:100%;
+	text-align: center;
+	font-family:'Federant';
+	float:left;
+}
+.link-pre6 button:hover{
+	background-color:white;
+}
+.top-p7{
+	font-family: 'Amatic SC', cursive;
+	font-size:50px;
+	color:black;
+	text-align:center;
+	margin: 30px;
+	background-color: #ffffff;
+	border: 1px solid inherit;
+	opacity: 0.6;
+	
+}
+.background-page7{
+	background-image: url("sho.jpg");
+	background-size: 100%;
+	width: 1270px;
+	height: 650px;
+	margin: auto;
+	margin-bottom:-50px;
+}
+.link-photo{
+	font-family: 'Amatic SC', cursive;
+	font-size:50px;
+	color:black;
+	text-align:center;
+	margin: 30px;
+	background-color: yellow;
+	border: 1px solid inherit;
+	opacity: 0.6;
+}
+.top-p8{
+	font-family: 'Amatic SC', cursive;
+	font-size:50px;
+	color:black;
+	text-align:center;
+	margin: 30px;
+	background-color: #ffffff;
+	border: 1px solid inherit;
+	opacity: 0.6;
+}
+.background-page8{
+	background-image: url("op.jpg");
+	background-size: 100%;
+	width: 1270px;
+	height: 650px;
+	margin: auto;
+	margin-bottom:-50px;
+}
+.for-p8{
+	font-family: 'Amatic SC', cursive;
+	font-size:30px;
+	color:black;
+	text-align:center;
+	margin: 30px;
+	background-color: #ffffff;
+	border: 1px solid inherit;
+	opacity: 0.6;
+}
+.background-p9{
+	background-image: url("b.JPG");
+	background-size: 100%;
+	width: 1270px;
+	height: 650px;
+	margin: auto;
+	margin-bottom:-50px;
+	color:white;
+}
+.mid-p9{
+	font-family: 'Amatic SC', cursive;
+	font-size:30px;
+	color:green;
+	text-align:center;
+	margin: 30px;
+	background-color: #ffffff;
+	border: 1px solid inherit;
+	opacity: 0.6;
+}
+.background-p12{
+	background-image: url("qq.jpg");
+	background-size: 100%;
+	width: 1270px;
+	height: 650px;
+	margin: auto;
+	margin-bottom:-50px;
+}
+.table{
+	margin-top:100px;
+	background-color:white;
+	opacity:0.6;
+	width:700px;
+	padding: 15px;
+	text-align: center;
+}
+.topp-p12{
+	font-family:cursive;
+	font-size:40px;
+	color:white;
+	margin: 30px;
+	
+}
+.link-page12 button{
+	
+	text-decoration:none;
+	background-color:inherit;
+	color:black;
+	padding:10px;
+	border-radius:100%;
+	text-align: center;
+	font-family:'Federant';
+	float:right;
+	
+}
+.link-page12 button:hover{
+	background-color:white;
+}
+.background-p11{
+	background-image: url("summ.jpg");
+	background-size: 100%;
+	width: 1270px;
+	height: 650px;
+	margin: auto;
+	margin-bottom:-50px;
+	font-size:40px;
+	font-family:'Amatic SC', cursive;
+}
+.mid-p10{
+	font-family: 'Amatic SC', cursive;
+	font-size:50px;
+	color:darkblue;
+	text-align:center;
+	margin: 30px;
+	background-color: #ffffff;
+	border: 1px solid inherit;
+	opacity: 0.6;
+}
+.background-p10{
+	background-image: url("suu.jpg");
+	background-size: 100%;
+	width: 1270px;
+	height: 650px;
+	margin: auto;
+	margin-bottom:-50px;
+	font-size:60px;
+	font-family:'Amatic SC', cursive;
+}
+.mid-p11{
+	font-family: 'Amatic SC', cursive;
+	font-size:50px;
+	color:darkblue;
+	text-align:center;
+	margin: 30px;
+	background-color: #ffffff;
+	border: 1px solid inherit;
+	opacity: 0.6;
+}
+.link-pre7 button{
+	
+	text-decoration:none;
+	background-color:inherit;
+	color:black;
+	padding:10px;
+	border-radius:100%;
+	text-align: center;
+	font-family:'Federant';
+	float:left;
+	
+}
+.link-pre7 button:hover{
+	background-color:white;
+}
+.background-p13{
+	background-image: url("bl.JPG");
+	background-size: 100%;
+	width: 1270px;
+	height: 650px;
+	margin: auto;
+	margin-bottom:-50px;
+}
+.link-page13 button{
+	
+	text-decoration:none;
+	background-color:inherit;
+	color:black;
+	padding:10px;
+	border-radius:100%;
+	text-align: center;
+	font-family:'Federant';
+	float:right;
+	
+}
+.link-page13 button:hover{
+	background-color:white;
+}
+.background-p15{
+	background-image: url("liiiii.jpg");
+	background-size: 100%;
+	width: 1270px;
+	height: 650px;
+	margin: auto;
+	margin-bottom:-50px;
+}
+.Pic-p15{
+	text-align:center;
+	margin: 30px;
+	
+}
+.h-p15{
+	text-align:center;
+	margin: 30px;
+	background-color: #ffffff;
+	border: 1px solid inherit;
+	opacity: 0.6;
+	font-family: 'Acme', sans-serif;
+}
+.link-pageLO button{
+	
+	text-decoration:none;
+	background-color:inherit;
+	color:black;
+	padding:10px;
+	border-radius:100%;
+	text-align: center;
+	font-family:'Federant';
+	float:right;
+	
+}
+.link-pageLO button:hover{
+	background-color:white;
+}
+.link-pre14v button{
+	
+	text-decoration:none;
+	background-color:inherit;
+	color:black;
+	padding:10px;
+	border-radius:100%;
+	text-align: center;
+	font-family:'Federant';
+	float:left;
+	
+}
+.link-pre14v button:hover{
+	background-color:white;
+}
+
+
